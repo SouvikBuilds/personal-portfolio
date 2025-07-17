@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="wholeBody">
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/12304/12304404.png" alt="Not Found" id="logo-image"
+                height="30px" width="30px">
+
+            <h2 id="heading">Design Portfolio</h2>
+            <div class="extra-links">
+                <div>
+                    <ul class="extra-links-list">
+                        <li class="extra-link-list-item"><a href="#">Home</a></li>
+                        <li class="extra-link-list-item"><a href="#">Projects</a></li>
+                        <li class="extra-link-list-item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="img-section">
+                    <div class="profile-img">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png" alt="Not Found" height="40px"
+                            width="40px" id="profileImg">
+                    </div>
+                    <div class="dark-mode-image">
+                        <button class="action">
+                            <img src="moon.png" alt="Not Found" height="30px" width="30px" id="togglerimg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="self-description">
+            <div>
+                <h2 style="font-size: 60px;">I'm <span style="color: red;">Souvik</span> Chatterjee</h2>
+            </div><br>
+            <div class="paragraph">
+                <p>This is My Official PortFolio Website to showcase all my works related to web <br>development and UI
+                    designs</p>
+            </div><br>
+            <div class="buttons">
+                <button type="button" id="download-cv">
+                    Download CV
+                </button>
+            </div>
+        </div>
+        <div class="myImg">
+            <img src="Adobe Express - file.png" alt="Not Found" height="700px" width="500px"
+                style="object-fit: contain;" id="my-front-image">
+        </div>
+    </div>
+
+    <div class="contact-links">
+        <div>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/61/61109.png" alt="Not Found" height="30px"
+                    width="30px">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://cdn-icons-png.flaticon.com/128/11401/11401924.png" alt="Not Found" height="30px"
+                    width="30px">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/7798/7798940.png" alt="Not Found" height="30px"
+                    width="30px">
+            </a>
+        </div>
+    </div><br><br>
+
+    <div class="all-projects-container">
+        <div>
+            <h2 id="project-heading">
+                Featured Projects
+            </h2>
+        </div><br><br>
+        <div class="all-projects">
+            <div class="project-description">
+                <div>
+                    <img src="Slice 1.png" alt="Not Found" width="100%">
+                </div>
+                <div>
+                    <h3 style="display: block; text-align: center;">Mobile App Redesign</h3><br>
+                    <p style="font-size: 20px; text-align: center;">A Complete redesign of a popular mobile app to
+                        improve user enragement
+                        and satisfaction</p>
+                    <br>
+                    <button type="button" class="view-case-study"
+                        style="width: 200px; padding: 15px 25px; border-radius: 10px; border: none; cursor: pointer; ;color: white; display: block; margin-left: 80px;">View
+                        Case
+                        Study</button>
+                </div>
+            </div>
+            <div class="project-description">
+                <div>
+                    <img src="Slice 2.png" alt="Not Found" width="100%">
+                </div>
+                <div>
+                    <h3 style="display: block; text-align: center;">E-Commerce Website Redesign</h3><br>
+                    <p style="font-size: 20px; text-align: center;">A Complete redesign of a popular E-commerce app to
+                        improve user enragement
+                        and satisfaction</p>
+                    <br>
+                    <button type="button" class="view-case-study"
+                        style="width: 200px; padding: 15px 25px; border-radius: 10px; border: none; cursor: pointer; ;color: white; display: block; margin-left: 80px; margin-top: 5px;">View
+                        Case
+                        Study</button>
+                </div>
+            </div>
+            <div class="project-description">
+                <div>
+                    <img src="Slice 3.png" alt="Not Found" width="100%">
+                </div>
+                <div>
+                    <h3 style="display: block; text-align: center;">DashBoard UX Improvement</h3><br>
+                    <p style="font-size: 20px; text-align: center;">Enhancing The Usability and Visual appeal of a data
+                        analytics dashboard</p>
+                    <br>
+                    <button type="button" class="view-case-study"
+                        style="width: 200px; padding: 15px 25px; border-radius: 10px; border: none; cursor: pointer; ;color: white; display: block; margin-left: 80px; margin-top: 22px;">View
+                        Case
+                        Study</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <h2 id="contact-heading">Contact Us</h2>
+    <div class="contacts">
+        <div>
+            <form action="">
+                <label for="input-name">Name:</label>
+                <input type="text" name="" id="input-name" placeholder="Enter Name"><br><br>
+                <label for="input-email">Email:</label>
+                <input type="email" name="" id="input-email" placeholder="Enter Email Id">
+                <br><br>
+                <textarea name="" id="input-message" placeholder="Your Message "></textarea>
+                <br><br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <img src="contactUs.jpg" alt="not Found" height="800px" width="600px" id="contact-us"
+                style="object-fit: contain; margin-top: -100px;">
+        </div>
+    </div>
+
+    <br><br>
+
+    <footer style="position: relative;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e7008a" fill-opacity="1"
+                d="M0,32L80,32C160,32,320,32,480,74.7C640,117,800,203,960,208C1120,213,1280,139,1360,101.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+        <div style="
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  ">
+            @ created by SouvikBuilds in 2025 by ❤️
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
